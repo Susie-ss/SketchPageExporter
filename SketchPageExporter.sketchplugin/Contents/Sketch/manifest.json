@@ -1,0 +1,21 @@
+{
+  "name": "Sketch Page Exporter",
+  "description": "Export native Sketch page JSON with full layer data, or a faithful HTML preview, CSS, PNG, SVG, PDF, JPG or WebP.",
+  "author": "Codex",
+  "version": "1.5.0",
+  "compatibleVersion": "59.1",
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Export Page…",
+      "identifier": "export-page",
+      "script": "plugin.js",
+      "handler": "onExportPage"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": ["export-page"]
+  },
+  "identifier": "com.codex.sketch-page-exporter"
+}
